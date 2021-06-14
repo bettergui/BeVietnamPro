@@ -24,21 +24,6 @@ value = (
 );
 },
 {
-name = "Axis Mappings";
-value = {
-wght = {
-200 = 100;
-300 = 230;
-400 = 380;
-416 = 400;
-500 = 500;
-600 = 600;
-700 = 750;
-800 = 900;
-};
-};
-},
-{
 name = "Variable Font Origin";
 value = "DFC78E06-237F-4D33-BFB3-2388B696AEC9";
 },
@@ -52,7 +37,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = Axes;
@@ -152,7 +137,7 @@ alignmentZones = (
 );
 ascender = 1000;
 capHeight = 740;
-custom = "Extra Italic";
+custom = "Thin Italic";
 customParameters = (
 {
 name = typoAscender;
@@ -188,13 +173,12 @@ value = 0;
 }
 );
 descender = -265;
+iconName = Light;
 id = "3EF6EAEC-888F-4BA2-8550-D36A3DFF40E2";
 italicAngle = 12;
-name = "ExtraLight Italic";
 userData = {
 GSCornerRadius = 65;
 };
-weight = Light;
 xHeight = 530;
 },
 {
@@ -259,7 +243,7 @@ alignmentZones = (
 );
 ascender = 1000;
 capHeight = 740;
-custom = "Extra Italic";
+custom = "Black Italic";
 customParameters = (
 {
 name = typoAscender;
@@ -295,13 +279,12 @@ value = 0;
 }
 );
 descender = -265;
+iconName = Bold;
 id = "1F0C3569-068D-41D8-99BF-71FC09839D59";
 italicAngle = 12;
-name = "ExtraBold Italic";
 userData = {
 GSCornerRadius = 160;
 };
-weight = Bold;
 weightValue = 900;
 xHeight = 530;
 }
@@ -107617,16 +107600,25 @@ instances = (
 instanceInterpolations = {
 "3EF6EAEC-888F-4BA2-8550-D36A3DFF40E2" = 1;
 };
+name = "Thin Italic";
+weightClass = Thin;
+},
+{
+interpolationWeight = 200;
+instanceInterpolations = {
+"3EF6EAEC-888F-4BA2-8550-D36A3DFF40E2" = 0.66667;
+"DFC78E06-237F-4D33-BFB3-2388B696AEC9" = 0.33333;
+};
 isItalic = 1;
 linkStyle = ExtraLight;
 name = "ExtraLight Italic";
 weightClass = ExtraLight;
 },
 {
-interpolationWeight = 230;
+interpolationWeight = 300;
 instanceInterpolations = {
-"3EF6EAEC-888F-4BA2-8550-D36A3DFF40E2" = 0.56667;
-"DFC78E06-237F-4D33-BFB3-2388B696AEC9" = 0.43333;
+"3EF6EAEC-888F-4BA2-8550-D36A3DFF40E2" = 0.33333;
+"DFC78E06-237F-4D33-BFB3-2388B696AEC9" = 0.66667;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -107664,10 +107656,10 @@ name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
-interpolationWeight = 750;
+interpolationWeight = 700;
 instanceInterpolations = {
-"1F0C3569-068D-41D8-99BF-71FC09839D59" = 0.7;
-"DFC78E06-237F-4D33-BFB3-2388B696AEC9" = 0.3;
+"1F0C3569-068D-41D8-99BF-71FC09839D59" = 0.6;
+"DFC78E06-237F-4D33-BFB3-2388B696AEC9" = 0.4;
 };
 isBold = 1;
 isItalic = 1;
@@ -107675,13 +107667,23 @@ name = "Bold Italic";
 weightClass = Bold;
 },
 {
-interpolationWeight = 900;
+interpolationWeight = 800;
 instanceInterpolations = {
-"1F0C3569-068D-41D8-99BF-71FC09839D59" = 1;
+"1F0C3569-068D-41D8-99BF-71FC09839D59" = 0.8;
+"DFC78E06-237F-4D33-BFB3-2388B696AEC9" = 0.2;
 };
 isItalic = 1;
 linkStyle = ExtraBold;
 name = "ExtraBold Italic";
+weightClass = ExtraBold;
+},
+{
+interpolationWeight = 900;
+instanceInterpolations = {
+"1F0C3569-068D-41D8-99BF-71FC09839D59" = 1;
+};
+name = "Black Italic";
+weightClass = Black;
 }
 );
 kerning = {

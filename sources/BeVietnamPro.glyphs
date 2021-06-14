@@ -2,7 +2,7 @@
 .appVersion = "1352";
 DisplayStrings = (
 a,
-b
+Black
 );
 classes = (
 {
@@ -28,21 +28,6 @@ value = (
 );
 },
 {
-name = "Axis Mappings";
-value = {
-wght = {
-200 = 100;
-300 = 230;
-400 = 380;
-416 = 400;
-500 = 500;
-600 = 600;
-700 = 750;
-800 = 900;
-};
-};
-},
-{
 name = "Variable Font Origin";
 value = "9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934";
 },
@@ -56,7 +41,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = Axes;
@@ -156,7 +141,7 @@ alignmentZones = (
 );
 ascender = 1000;
 capHeight = 740;
-custom = Extra;
+custom = Thin;
 customParameters = (
 {
 name = typoAscender;
@@ -192,12 +177,11 @@ value = 0;
 }
 );
 descender = -265;
+iconName = Light;
 id = "B45F0BEB-E489-4392-AE53-309DD1ADE040";
-name = ExtraLight;
 userData = {
 GSCornerRadius = 65;
 };
-weight = Light;
 xHeight = 530;
 },
 {
@@ -260,7 +244,7 @@ alignmentZones = (
 );
 ascender = 1000;
 capHeight = 740;
-custom = Extra;
+custom = Black;
 customParameters = (
 {
 name = typoAscender;
@@ -296,12 +280,11 @@ value = 0;
 }
 );
 descender = -265;
+iconName = Bold;
 id = "D085834A-C5B8-45AD-B7CB-7C394966C9BB";
-name = ExtraBold;
 userData = {
 GSCornerRadius = 160;
 };
-weight = Bold;
 weightValue = 900;
 xHeight = 530;
 }
@@ -107300,14 +107283,23 @@ instances = (
 instanceInterpolations = {
 "B45F0BEB-E489-4392-AE53-309DD1ADE040" = 1;
 };
+name = Thin;
+weightClass = Thin;
+},
+{
+interpolationWeight = 200;
+instanceInterpolations = {
+"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 0.33333;
+"B45F0BEB-E489-4392-AE53-309DD1ADE040" = 0.66667;
+};
 name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-interpolationWeight = 230;
+interpolationWeight = 300;
 instanceInterpolations = {
-"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 0.43333;
-"B45F0BEB-E489-4392-AE53-309DD1ADE040" = 0.56667;
+"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 0.66667;
+"B45F0BEB-E489-4392-AE53-309DD1ADE040" = 0.33333;
 };
 name = Light;
 weightClass = Light;
@@ -107338,10 +107330,10 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-interpolationWeight = 750;
+interpolationWeight = 700;
 instanceInterpolations = {
-"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 0.3;
-"D085834A-C5B8-45AD-B7CB-7C394966C9BB" = 0.7;
+"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 0.4;
+"D085834A-C5B8-45AD-B7CB-7C394966C9BB" = 0.6;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -107349,12 +107341,21 @@ name = Bold;
 weightClass = Bold;
 },
 {
+interpolationWeight = 800;
+instanceInterpolations = {
+"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 0.2;
+"D085834A-C5B8-45AD-B7CB-7C394966C9BB" = 0.8;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
 interpolationWeight = 900;
 instanceInterpolations = {
 "D085834A-C5B8-45AD-B7CB-7C394966C9BB" = 1;
 };
-name = ExtraBold;
-weightClass = ExtraBold;
+name = Black;
+weightClass = Black;
 }
 );
 kerning = {
