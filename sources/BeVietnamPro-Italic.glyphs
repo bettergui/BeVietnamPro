@@ -207,7 +207,7 @@ alignmentZones = (
 );
 ascender = 1000;
 capHeight = 740;
-custom = "Regular italic";
+custom = Italic;
 customParameters = (
 {
 name = typoAscender;
