@@ -107313,10 +107313,9 @@ name = Light;
 weightClass = Light;
 },
 {
-interpolationWeight = 380;
+interpolationWeight = 400;
 instanceInterpolations = {
-"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 0.93333;
-"B45F0BEB-E489-4392-AE53-309DD1ADE040" = 0.06667;
+"9D6BE6F2-0D0F-4D93-9FAF-A0B52FAE1934" = 1;
 };
 name = Regular;
 },
