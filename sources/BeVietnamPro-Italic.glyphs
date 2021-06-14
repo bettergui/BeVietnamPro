@@ -107600,6 +107600,8 @@ instances = (
 instanceInterpolations = {
 "3EF6EAEC-888F-4BA2-8550-D36A3DFF40E2" = 1;
 };
+isItalic = 1;
+linkStyle = Thin;
 name = "Thin Italic";
 weightClass = Thin;
 },
@@ -107682,6 +107684,8 @@ interpolationWeight = 900;
 instanceInterpolations = {
 "1F0C3569-068D-41D8-99BF-71FC09839D59" = 1;
 };
+isItalic = 1;
+linkStyle = Black;
 name = "Black Italic";
 weightClass = Black;
 }
