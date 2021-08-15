@@ -1,5 +1,5 @@
 {
-.appVersion = "1352";
+.appVersion = "3095";
 DisplayStrings = (
 a,
 Black
@@ -157,7 +157,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1000;
+value = 1261;
 },
 {
 name = winDescent;
@@ -208,7 +208,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1000;
+value = 1261;
 },
 {
 name = winDescent;
@@ -260,7 +260,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1000;
+value = 1261;
 },
 {
 name = winDescent;
